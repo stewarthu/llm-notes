@@ -20,7 +20,7 @@ This collection of notes is basically a brain dump for me - it captures my perso
 
 These are the important milestones leading up to the current state of LLM.
 
-- Transformer: 
+- Transformer:
     * THE transformer paper: [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
     * A detailed anatomy of transfomer : [Transformer from scratch](https://e2eml.school/transformers.html)
     * The python implementation of the original transformer: [The annotated transformer](http://nlp.seas.harvard.edu/annotated-transformer/)
@@ -51,20 +51,28 @@ These are the important milestones leading up to the current state of LLM.
     * Flan-T5/PaLM: [Scaling Instruction-Finetuned Language Models](https://arxiv.org/pdf/2210.11416.pdf)
     * FLAN:  [Finetuned Language Models are Zero-Shot Learners](https://openreview.net/forum?id=gEZrGCozdqR)
 
-- The birth of ChatGPT
+- The birth of ChatGPT: the cambrian explosion started from here: Nov 2022
 
-- The race to catch up with GPT4 in the open source community
+- The race to catch up with ChartGPT in the open source community
    * LLaMA: [LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)
 
 ## Prerequisites
 
 The field is moving so fast you absolutely need a hacker's mentality
 
-- Numpy and Pandas
-- Python and Torch
-- Git and github
-- Huggingface ecosystem
-- Linux, bash, and command line tools
+- Python/Numpy/Pandas: basic skills needed to code up something quickly. Fortunately with tools like copilot/ChatGPT/Replit, it's quite easy to get up to speed quickly in this department, especially you
+are a programmer. For instance I came from a C++/R/Haskell background, and made a switch from R to Python
+quite smoothly.
+
+- Torch: Most transformer models are in torch. Invest some time to get you comfortable with both the tensor
+library and building blocks for neural networks.
+
+- Git and github: You will clone a tons of repos to experiment, so invest some time in building your own commands to quickly get things done.
+
+- Huggingface ecosystem: this is a must now. Not just the `transformers` library itself, but also `peft`, 
+`accelerate`, etc.
+
+- Linux, bash, and command line tools: Get a mac and get comfortable with command lines tools. Trust me it is worth your time.
 
 ## Fundamentals
 
