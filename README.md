@@ -9,8 +9,8 @@ This collection of notes is basically a brain dump for me - it captures my perso
 
 - [History](#history)
 - [Fundamentals](#fundamental)
-- [Closed Foundational Models](#closed-foundational-models)
-- [Open Foundational Models](#open-foundational-models)
+- [Closed Foundation Models](#closed-foundation-models)
+- [Open Foundation Models](#open-foundation-models)
 - [Frameworks and Ecosystems](#frameworks-and-ecosystems)
 - [FAQs](#faqs)
 
@@ -83,13 +83,13 @@ library and building blocks for neural networks.
 - Infererence
 - Deployment
 
-## Closed Foundational Models
+## Closed Foundation Models
 
 - OpenAI
 - Google
-- Anthopic
+- Anthropic
 
-## Open Foundational Models
+## Open Foundation Models
 
 - LLama/Aplpaca/Vicuna/Guanaco
 - Falcon
