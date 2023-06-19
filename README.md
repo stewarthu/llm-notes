@@ -3,14 +3,16 @@
 Large Language Models(LLM) are changing the landscape of data science - whether this represents a paradigm shift in the way information is produced, aggregated and consumed, or this is just another
 passing fad, the jury is still out. In any case, AI/LLM as a tool, increasingly an indispensable one, is becoming the accepted norm, especially among programmers and data scientists.
 
-This collection of notes are sort of brain dump for me - it captures my personal learnings to make sense of this exploding field and try to keep myself sane.
+This collection of notes is basically a brain dump for me - it captures my personal learnings to make sense of this exploding field and try to keep myself sane.
 
 # Table of Contents
 
 - [History](#history)
-- [Fundamentals](#)
+- [Fundamentals](#fundamental)
 - [Closed Foundational Models](#closed-foundational-models)
 - [Open Foundational Models](#open-foundational-models)
+- [Frameworks and Ecosystems](#frameworks-and-ecosystems)
+- [FAQs](#faqs)
 
 ---
 
@@ -59,7 +61,7 @@ The field is moving so fast you absolutely need a hacker's mentality
 - HuggingFace
 - OpenLLama - together
 
-## Frameworks and ecosystems
+## Frameworks and Ecosystems
 
 - Huggingface transformers/feft/accelerate/bitsandbytes
 - Torch Lightning
