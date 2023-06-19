@@ -20,7 +20,8 @@ This collection of notes is basically a brain dump for me - it captures my perso
 
 These are the important milestones leading up to the current state of LLM.
 
-- Transformer Paper
+- Transformer Paper: [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
+
 - GPT style decoder only models
 - Bert style encoder-decoder models 
 - "Making it bigger" - scaling and emergent properties
