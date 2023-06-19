@@ -24,6 +24,10 @@ These are the important milestones leading up to the current state of LLM.
     * THE transformer paper: [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
     * A detailed anatomy of transfomer : [Transformer from scratch](https://e2eml.school/transformers.html)
     * The python implementation of the original transformer: [The annotated transformer](http://nlp.seas.harvard.edu/annotated-transformer/)
+
+- The Zoo of LLMs
+    * [An overview and hitory of LLMs:](https://arxiv.org/abs/2302.09419)
+    * [List of transfomers: ](https://github.com/abacaj/awesome-transformers)
     * [A catalog of transfomer models](https://arxiv.org/pdf/2302.07730.pdf)
 
 - GPT style decoder only models
@@ -108,6 +112,14 @@ library and building blocks for neural networks.
 - LLamaIndex
 - Text generation web gui
 - GPT4all
+
+## Stay Current 
+
+From Kaparthy: 
+
+1. [papers:](https://papers.labml.ai/papers/weekly)
+2. [papers+code:](https://paperswithcode.com)
+3. [code:](https://github.com/trending)
 
 ## FAQs
 
