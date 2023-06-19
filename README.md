@@ -20,9 +20,15 @@ This collection of notes is basically a brain dump for me - it captures my perso
 
 These are the important milestones leading up to the current state of LLM.
 
-- Transformer Paper: [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
+- Transformer: 
+    * THE transformer paper: [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
+    * A detailed anatomy of transfomer : [Transformer from scratch](https://e2eml.school/transformers.html)
+    * The python implementation of the original transformer: [The annotated transformer](http://nlp.seas.harvard.edu/annotated-transformer/)
+    * [A catalog of transfomer models](https://arxiv.org/pdf/2302.07730.pdf)
 
 - GPT style decoder only models
+    * [Kaparthy's NanoGPT Impementation](https://github.com/karpathy/nanoGPT)
+
 - Bert style encoder-decoder models 
 - "Making it bigger" - scaling and emergent properties
 - Instruction finetuning and alignment
