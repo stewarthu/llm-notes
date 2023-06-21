@@ -84,6 +84,10 @@ library and building blocks for neural networks.
 - Common datasets for pre-training
 - Fine-tuning
 - Common datasets for fine-tuning
+    * Apalca: generated from ChatGPT
+    * Wizard(Evol-instruct from microsoft) : WizardLM/WizardLM_evol_instruct_V2_196k
+    * Vicuna(From sharedGPT) : 
+    * [Open Assistant Conversation](https://huggingface.co/datasets/OpenAssistant/oasst1): used for QLoRA training
 - Infererence
 - Deployment
 
@@ -95,23 +99,35 @@ library and building blocks for neural networks.
 
 ## Open Foundation Models
 
-- LLama/Aplpaca/Vicuna/Guanaco
-- Falcon
-- Open Assistant
-- MPT - Mosiac ML
-- HuggingFace
-- OpenLLama - together
+### LLaMA and finetuned variants
+
+- [Alpaca](https://github.com/tatsu-lab/stanford_alpaca)
+- [Vicuna](https://lmsys.org/)
+- [WizardLM](https://github.com/nlpxucan/WizardLM)
+- [Wizard Dataset + Vicuna Finetuning](https://github.com/melodysdreamj/WizardVicunaLM)
+- [Open Assistant](https://github.com/LAION-AI/Open-Assistant)
+- [QLora/Guanaco](https://github.com/artidoro/qlora)
+
+### LLaMA alternatives
+
+- [OpenLLaMA](https://github.com/openlm-research/open_llama)
+- [Falcon](https://falconllm.tii.ae/)
+- [Mosiac ML](https://github.com/mosaicml/llm-foundry)
+- [StabilityAI](https://github.com/Stability-AI/StableLM)
+- [BigCode Project/HuggingFace](https://github.com/bigcode-project)
+- [Replit](https://github.com/replit/ReplitLM)
 
 ## Frameworks and Ecosystems
 
-- Huggingface transformers/feft/accelerate/bitsandbytes
+- Huggingface: transformers/feft/accelerate/bitsandbytes
 - Torch Lightning
 - GGML/Llama.cpp
+- GPT4all
 - GPTQ/AutoGPTQ
+- FlexGen
 - LangChain
 - LLamaIndex
 - Text generation web gui
-- GPT4all
 
 ## Stay Current 
 
