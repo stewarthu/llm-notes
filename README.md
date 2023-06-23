@@ -26,9 +26,9 @@ These are the important milestones leading up to the current state of LLM.
     * The python implementation of the original transformer: [The annotated transformer](http://nlp.seas.harvard.edu/annotated-transformer/)
 
 - The Zoo of LLMs
-    * [An overview and hitory of LLMs:](https://arxiv.org/abs/2302.09419)
-    * [List of transfomers: ](https://github.com/abacaj/awesome-transformers)
-    * [A catalog of transfomer models](https://arxiv.org/pdf/2302.07730.pdf)
+    * [An overview and hitory of LLMs](https://arxiv.org/abs/2302.09419): A nice review paper of LLMs.
+    * [List of transfomers](https://github.com/abacaj/awesome-transformers): A github repo for all the transformer-based models, not just LLMs.
+    * [A catalog of transfomer models](https://arxiv.org/pdf/2302.07730.pdf): This started as a blog post, later they converted it into a nice paper.
 
 - GPT style decoder only models
     * GPT 1.0: [Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)
