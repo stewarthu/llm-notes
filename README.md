@@ -131,8 +131,9 @@ for some of those notable models.
 
 ### LLaMA alternatives
 
-- [OpenLLaMA](https://github.com/openlm-research/open_llama)
 - [Falcon](https://falconllm.tii.ae/)
+- [OpenLLaMA](https://github.com/openlm-research/open_llama)
+- [Togethecomputer - RedPajama](https://www.together.xyz/blog/redpajama-7b)
 - [Mosiac ML](https://github.com/mosaicml/llm-foundry)
 - [StabilityAI](https://github.com/Stability-AI/StableLM)
 - [BigCode Project/HuggingFace](https://github.com/bigcode-project)
