@@ -78,7 +78,8 @@ library and building blocks for neural networks.
 
 - Linux, bash, and command line tools: Get a mac and get comfortable with command lines tools. Trust me it is worth your time.
 
-- GPUs. You can get away with CPUs for interence, but you will have to use GPUs for training models. You can build you own box
+- GPUs. You can get away with CPUs for interence (GGLM is really coming up fast), 
+  but you will have to use GPUs for training models. You can build you own box
   with RTX 3090 (or 4090 if you have a few extra bucks), or rent online from one of those small guys:
   [vast.ai](https://cloud.vast.ai/), [runpod](https://www.runpod.io/gpu-instance/pricing).
 
