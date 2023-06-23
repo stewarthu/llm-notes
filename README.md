@@ -21,12 +21,12 @@ This collection of notes is basically a brain dump for me - it captures my perso
 These are the important milestones leading up to the current state of LLM.
 
 - Transformer:
-    * THE transformer paper: [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
+    * The OG paper: [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
     * A detailed anatomy of transfomer : [Transformer from scratch](https://e2eml.school/transformers.html)
     * The python implementation of the original transformer: [The annotated transformer](http://nlp.seas.harvard.edu/annotated-transformer/)
 
 - The Zoo of LLMs
-    * [An overview and hitory of LLMs](https://arxiv.org/abs/2302.09419): A nice review paper of LLMs.
+    * [An overview and hitory of LLMs](https://arxiv.org/pdf/2302.09419.pdf): A nice review paper of LLMs.
     * [List of transfomers](https://github.com/abacaj/awesome-transformers): A github repo for all the transformer-based models, not just LLMs.
     * [A catalog of transfomer models](https://arxiv.org/pdf/2302.07730.pdf): This started as a blog post, later they converted it into a nice paper.
 
@@ -64,8 +64,8 @@ These are the important milestones leading up to the current state of LLM.
 
 The field is moving so fast you absolutely need a hacker's mentality
 
-- Python/Numpy/Pandas: basic skills needed to code up something quickly. Fortunately with tools like copilot/ChatGPT/Replit, it's quite easy to get up to speed quickly in this department, especially you
-are a programmer. For instance I came from a C++/R/Haskell background, and made a switch from R to Python
+- Python/Numpy/Pandas: basic skills needed to code up something quickly. Fortunately with tools like copilot/ChatGPT/Replit, it's quite easy to get up to speed quickly in this department, especially if you
+are a programmer to begin with. For instance I came from a C++/R/Haskell background, and made a switch from R to Python
 quite smoothly.
 
 - Torch: Most transformer models are in torch. Invest some time to get you comfortable with both the tensor
@@ -77,6 +77,10 @@ library and building blocks for neural networks.
 `accelerate`, etc.
 
 - Linux, bash, and command line tools: Get a mac and get comfortable with command lines tools. Trust me it is worth your time.
+
+- GPUs. You can get away with CPUs for interence, but you will have to use GPUs for training models. You can build you own box
+  with RTX 3090 (or 4090 if you have a few extra bucks), or rent online from one of those small guys:
+  [vast.ai](https://cloud.vast.ai/), [runpod](https://www.runpod.io/gpu-instance/pricing).
 
 ## Fundamentals
 
