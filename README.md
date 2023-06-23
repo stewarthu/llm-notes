@@ -26,16 +26,16 @@ These are the important milestones leading up to the current state of LLM.
     * The python implementation of the original transformer: [The annotated transformer](http://nlp.seas.harvard.edu/annotated-transformer/)
 
 - The Zoo of LLMs
-    * [An overview and hitory of LLMs](https://arxiv.org/pdf/2302.09419.pdf): A nice review paper of LLMs.
-    * [List of transfomers](https://github.com/abacaj/awesome-transformers): A github repo for all the transformer-based models, not just LLMs.
-    * [A catalog of transfomer models](https://arxiv.org/pdf/2302.07730.pdf): This started as a blog post, later they converted it into a nice paper.
+    * [An overview and history of LLMs](https://arxiv.org/pdf/2302.09419.pdf): A nice review paper of LLMs.
+    * [List of transformers](https://github.com/abacaj/awesome-transformers): A github repo for all the transformer-based models, not just LLMs.
+    * [A catalog of transformer models](https://arxiv.org/pdf/2302.07730.pdf): This started as a blog post, later they converted it into a nice paper.
 
 - GPT style decoder only models
     * GPT 1.0: [Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)
     * GPT 2.0: [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
     * GPT 3.0: [Language models are few-shot learners](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
     * GPT 4: [GPT-4 Technical Report](https://openai.com/research/gpt-4)
-    * [Kaparthy's NanoGPT Impementation](https://github.com/karpathy/nanoGPT)
+    * [Kaparthy's NanoGPT Implementation](https://github.com/karpathy/nanoGPT)
 
 - Bert style encoder only models 
     * BERT: [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423.pdf)
@@ -78,7 +78,7 @@ library and building blocks for neural networks.
 
 - Linux, bash, and command line tools: Get a mac and get comfortable with command lines tools. Trust me it is worth your time.
 
-- GPUs. You can get away with CPUs for interence (GGLM is really coming up fast), 
+- GPUs. You can get away with CPUs for inference (GGLM is really coming up fast), 
   but you will have to use GPUs for training models. You can build you own box
   with RTX 3090 (or 4090 if you have a few extra bucks), or rent online from one of those small guys:
   [vast.ai](https://cloud.vast.ai/), [runpod](https://www.runpod.io/gpu-instance/pricing), or Azure/AWS if
@@ -90,7 +90,7 @@ library and building blocks for neural networks.
 - Common datasets for pre-training
 - Fine-tuning
 - Common datasets for fine-tuning
-    * Apalca: generated from ChatGPT
+    * Alpaca: generated from ChatGPT
     * Wizard(Evol-instruct from microsoft) : WizardLM/WizardLM_evol_instruct_V2_196k
     * Vicuna(From sharedGPT) 
     * [Open Assistant Conversation](https://huggingface.co/datasets/OpenAssistant/oasst1): used for QLoRA training
@@ -107,7 +107,7 @@ library and building blocks for neural networks.
 
 ### LLaMA and finetuned variants
 
-FB's release of LLaMA set off a wave of finetuned variants of LlaMA 7/13/30/65B models, with some
+FB's release of LLaMA set off a wave of fine tuned variants of LlaMA 7/13/30/65B models, with some
 fun playing with names of Llama family. See 
 [Huggingface Leaderboard for Open LLMs](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 for some of those notable models.
@@ -117,7 +117,7 @@ for some of those notable models.
 
 - [Vicuna](https://lmsys.org/): NormicAI is behind this project. The model was finetuned with [ShareGPT data](https://sharegpt.com/), a 
   crowd sourced dataset via ChatGPT. Also it comes with a fast inference engine - underlying it there is 
-  GPU-optimized version of inferernce engine called vLLM. They also have other open source models like T5.
+  GPU-optimized version of inference engine called vLLM. They also have other open source models like T5.
 
 - [WizardLM](https://github.com/nlpxucan/WizardLM): This is from Microsoft Reseach. It is based on 
   Evol-instruct, a tree-based instructions.
@@ -157,12 +157,13 @@ for some of those notable models.
 
 From Kaparthy: 
 
-1. [papers:](https://papers.labml.ai/papers/weekly)
-2. [papers+code:](https://paperswithcode.com)
-3. [code:](https://github.com/trending)
+1. [Weekly Oapers](https://papers.labml.ai/papers/weekly)
+2. [Papers with Code](https://paperswithcode.com)
+3. [Trending Github Repos](https://github.com/trending)
 
 ## FAQs
 
 1. Why should I care about LLMs ?
 2. What are the common use cases for LLMs ?
 3. I am new to the field, where shoud I get started ?
+4. What do those weird names like Llama/alpaca/vicuna/guanaco come from ?
