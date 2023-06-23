@@ -101,12 +101,27 @@ library and building blocks for neural networks.
 
 ### LLaMA and finetuned variants
 
-- [Alpaca](https://github.com/tatsu-lab/stanford_alpaca)
-- [Vicuna](https://lmsys.org/)
-- [WizardLM](https://github.com/nlpxucan/WizardLM)
-- [Wizard Dataset + Vicuna Finetuning](https://github.com/melodysdreamj/WizardVicunaLM)
-- [Open Assistant](https://github.com/LAION-AI/Open-Assistant)
-- [QLora/Guanaco](https://github.com/artidoro/qlora)
+FB's release of LLaMA set off a wave of finetuned variants of LlaMA 7/13/30/65B models, with some
+fun playing with names of Llama family. See the 
+[Huggingface Leaderboard for Open LLMs](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+for some of those notable models.
+
+- [Alpaca](https://github.com/tatsu-lab/stanford_alpaca): This is the first model coming out of Standford.
+  It was trained on the instructions generated from ChatGPT.
+
+- [Vicuna](https://lmsys.org/): NormicAI is behind this project. The model was finetuned with ShartGPT data, a 
+  crowd sourced dataset via ChatGPT. Also it comes with a fast inference engine - underlying it there is 
+  GPU-optimized version of inferernce engine called vLLM. They also have other open source models like T5.
+
+- [WizardLM](https://github.com/nlpxucan/WizardLM): This is from Microsoft Reseach. It is based on 
+  Evol-instruct, a tree-based instructions.
+
+- [Wizard Dataset + Vicuna Finetuning](https://github.com/melodysdreamj/WizardVicunaLM): a combo of Wizard and Vicuna.
+
+- [Open Assistant](https://github.com/LAION-AI/Open-Assistant): 
+
+- [QLora/Guanaco](https://github.com/artidoro/qlora): This is a big for guys with consumer-grade GPUs like RTX series,
+  you can fine tune a sizeable model with a single GPU. It was trained with Open Assistant dataset.
 
 ### LLaMA alternatives
 
