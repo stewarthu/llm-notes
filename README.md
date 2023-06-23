@@ -81,7 +81,8 @@ library and building blocks for neural networks.
 - GPUs. You can get away with CPUs for interence (GGLM is really coming up fast), 
   but you will have to use GPUs for training models. You can build you own box
   with RTX 3090 (or 4090 if you have a few extra bucks), or rent online from one of those small guys:
-  [vast.ai](https://cloud.vast.ai/), [runpod](https://www.runpod.io/gpu-instance/pricing).
+  [vast.ai](https://cloud.vast.ai/), [runpod](https://www.runpod.io/gpu-instance/pricing), or Azure/AWS if
+  you are not paying the bills out of your own pocket.
 
 ## Fundamentals
 
@@ -91,7 +92,7 @@ library and building blocks for neural networks.
 - Common datasets for fine-tuning
     * Apalca: generated from ChatGPT
     * Wizard(Evol-instruct from microsoft) : WizardLM/WizardLM_evol_instruct_V2_196k
-    * Vicuna(From sharedGPT) : 
+    * Vicuna(From sharedGPT) 
     * [Open Assistant Conversation](https://huggingface.co/datasets/OpenAssistant/oasst1): used for QLoRA training
 - Infererence
 - Deployment
@@ -107,14 +108,14 @@ library and building blocks for neural networks.
 ### LLaMA and finetuned variants
 
 FB's release of LLaMA set off a wave of finetuned variants of LlaMA 7/13/30/65B models, with some
-fun playing with names of Llama family. See the 
+fun playing with names of Llama family. See 
 [Huggingface Leaderboard for Open LLMs](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 for some of those notable models.
 
 - [Alpaca](https://github.com/tatsu-lab/stanford_alpaca): This is the first model coming out of Standford.
   It was trained on the instructions generated from ChatGPT.
 
-- [Vicuna](https://lmsys.org/): NormicAI is behind this project. The model was finetuned with ShartGPT data, a 
+- [Vicuna](https://lmsys.org/): NormicAI is behind this project. The model was finetuned with [ShareGPT data](https://sharegpt.com/), a 
   crowd sourced dataset via ChatGPT. Also it comes with a fast inference engine - underlying it there is 
   GPU-optimized version of inferernce engine called vLLM. They also have other open source models like T5.
 
@@ -123,7 +124,7 @@ for some of those notable models.
 
 - [Wizard Dataset + Vicuna Finetuning](https://github.com/melodysdreamj/WizardVicunaLM): a combo of Wizard and Vicuna.
 
-- [Open Assistant](https://github.com/LAION-AI/Open-Assistant): 
+- [Open Assistant](https://github.com/LAION-AI/Open-Assistant): dataset, RLHF fine tuning, etc.
 
 - [QLora/Guanaco](https://github.com/artidoro/qlora): This is a big for guys with consumer-grade GPUs like RTX series,
   you can fine tune a sizeable model with a single GPU. It was trained with Open Assistant dataset.
@@ -140,14 +141,16 @@ for some of those notable models.
 ## Frameworks and Ecosystems
 
 - Huggingface: transformers/feft/accelerate/bitsandbytes
-- Torch Lightning
-- GGML/Llama.cpp
-- GPT4all
-- GPTQ/AutoGPTQ
-- FlexGen
-- LangChain
-- LLamaIndex
-- Text generation web gui
+- PyTorch Lightning: More general high-level framework on top of PyTorch. Think of it as the Keras for PyTorch.
+  Also it has two repos: one is the open source implementation of GPT, and one is a finetuning framework for open
+  LLMs.
+- GGML/Llama.cpp: A lot of attention here, this project will probaby pave the road for LLM without GPUs.
+- GPT4all: Started as thin wrapper of GGML, but it's diverged since.
+- GPTQ/AutoGPTQ: An alternative to Int.8 quantization (`bitsandbytes`).
+- FlexGen: New kid on the block, have not really looked into it.
+- LangChain: It's hot now, but just a convinience package to interface with LLMs, and vector stores.
+- LLamaIndex: It has some overlapping with LangChain, but maily a vector store.
+- Text generation web gui: Nice playground for experimenting with various LLMs. 
 
 ## Stay Current 
 
