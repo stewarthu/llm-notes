@@ -149,8 +149,8 @@ for some of those notable models.
 - GPT4all: Started as thin wrapper of GGML, but it's diverged since.
 - GPTQ/AutoGPTQ: An alternative to Int.8 quantization (`bitsandbytes`).
 - FlexGen: New kid on the block, have not really looked into it.
-- LangChain: It's hot now, but just a convinience package to interface with LLMs, and vector stores.
-- LLamaIndex: It has some overlapping with LangChain, but maily a vector store.
+- LangChain: It's hot now, a very convinience package to interface with LLMs, and vector stores.
+- LLamaIndex: It has some overlapping with LangChain - it's a data framework.
 - Text generation web gui: Nice playground for experimenting with various LLMs. 
 
 ## Stay Current 
