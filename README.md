@@ -149,16 +149,18 @@ for some of those notable models.
 - GPT4all: Started as thin wrapper of GGML, but it's diverged since.
 - GPTQ/AutoGPTQ: An alternative to Int.8 quantization (`bitsandbytes`).
 - FlexGen: New kid on the block, have not really looked into it.
-- LangChain: It's hot now, a very convinience package to interface with LLMs, and vector stores.
-    Here are the key concepts and abstractions in LangChain:
+- LangChain: It's hot now, a very convinience package to interface with LLMs, and vector stores. Here are the key concepts and abstractions in LangChain:
+
     * A `Chain` is just a LLM + a prompt template. 
     * A agent is made of a llm chain and tools.
     * A agent is usually wrapped in a Agent Executor, which itself is a type of chain.:wq
     * The key ingredient of an agent is the ability to `plan`, which literally is a method defined for each type of agent.
+
     My take on LC is that if you want to spin up something quickly, it's a great tool to get you started. But once you've
     moved beyond of building toy projects, you will probably need to build your own pipeline, or even your own abstractions.
     Treat LC as a huge cookbook, pick and choose whatever you need, especially the prompts. But keep in mind the field 
     is moving lightning fast, a lot prompts might not be necessary now, especially with strong models like GPT4.
+
 - LLamaIndex: It has some overlapping with LangChain - it's a data framework. Same as LC, awesome tool to get you started quickly.
 - DSP: Coming out of Standford NLP research group. A nice programming model for working with LLMs: demostrate, search and predict.
   Probably not as mature as Langchain and LlamaIndex, but worthing checking out.
