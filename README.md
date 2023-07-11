@@ -155,10 +155,15 @@ for some of those notable models.
     * A agent is made of a llm chain and tools.
     * A agent is usually wrapped in a Agent Executor, which itself is a type of chain.:wq
     * The key ingredient of an agent is the ability to `plan`, which literally is a method defined for each type of agent.
-- LLamaIndex: It has some overlapping with LangChain - it's a data framework.
+    My take on LC is that if you want to spin up something quickly, it's a great tool to get you started. But once you've
+    moved beyond of building toy projects, you will probably need to build your own pipeline, or even your own abstractions.
+    Treat LC as a huge cookbook, pick and choose whatever you need, especially the prompts. But keep in mind the field 
+    is moving lightning fast, a lot prompts might not be necessary now, especially with strong models like GPT4.
+- LLamaIndex: It has some overlapping with LangChain - it's a data framework. Same as LC, awesome tool to get you started quickly.
 - DSP: Coming out of Standford NLP research group. A nice programming model for working with LLMs: demostrate, search and predict.
   Probably not as mature as Langchain and LlamaIndex, but worthing checking out.
 - Text generation web gui: Nice playground for experimenting with various LLMs. 
+- LocalAI: a drop-in replacement for OpenAI.
 
 ## Stay Current 
 
