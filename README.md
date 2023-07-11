@@ -13,6 +13,7 @@ This collection of notes is basically a brain dump for me - it captures my perso
 - [Open Foundation Models](#open-foundation-models)
 - [Frameworks and Ecosystems](#frameworks-and-ecosystems)
 - [FAQs](#faqs)
+- [My Cookbook](./cookbook)
 
 ---
 
