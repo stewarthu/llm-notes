@@ -152,21 +152,3 @@ def query_metadata(table_name, db_str = DB):
     metadata_query = select(metadata_table).where(metadata_table.columns.table_name == table_name)
     metadata_records = session.execute(metadata_query).fetchall()
     return metadata_records
-
-
-if __name__ == '__main__':
-    # Test the function
-    for file_name in ['movement.json', 'price.json', 'cost.json', 'promo.json']:
-        create_meta_table()
-        table_name, columns = create_table_from_json(file_name)
-        print(f"\nTable Name: {table_name}")
-        print("\ncolums: =====================================")
-        print(f"Columns: {columns}")
-
-        print("\nrecords: =====================================")
-        records = query_table(table_name)
-        print(records)
-
-        print("\nmeta data: =====================================\n")
-        meta_data = query_metadata(table_name)
-        print(meta_data)
