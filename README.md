@@ -91,18 +91,16 @@ library and building blocks for neural networks.
 - Common datasets for pre-training
 - Fine-tuning
 - Common datasets for fine-tuning
-   - [(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
-   - [(gururise/Cleaned Alpaca)|52K|EN|MT|SI](https://github.com/gururise/AlpacaDataCleaned)
-   - [(XueFuzhao/InstructionWild)|52K|EN|CN|MT|SI](https://github.com/XueFuzhao/InstructionWild)
-   - [(JosephusCheung/GuanacoDataset)|534K|ML|MT|SI](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset)
-   - [(nomic-ai/gpt4all)|437k|EN|MT|COL](https://github.com/nomic-ai/gpt4all)
-   - [(PhoebusSi/Alpaca-CoT)|500k|ML|MT|COL](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT)
-   - [(google-research/FLAN)|N/A|EN|MT|MIX](https://github.com/google-research/FLAN/tree/main/flan/v2)
-   - [(cascip/ChatAlpaca)|10k|EN|MT|MIX](https://github.com/cascip/ChatAlpaca)
-   - [(Instruction-Tuning-with-GPT-4/GPT-4-LLM)|52K|EN|CN|MT|SI](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)
-   - [(databrickslabs/dolly)|15K|EN|MT|HG](https://github.com/databrickslabs/dolly/tree/master/data)
-   - [(OpenAssistant/oasst1)|161K|ML|MT|HG](https://huggingface.co/datasets/OpenAssistant/oasst1)
-   - [(RyokoAI/ShareGPT52K)|90K|ML|MT|SI](https://huggingface.co/datasets/RyokoAI/ShareGPT52K)
+   * [Original Alpaca Dataset](https://github.com/tatsu-lab/stanford_alpaca)
+   * [Clenaed up version of Alpaca](https://github.com/gururise/AlpacaDataCleaned)
+   * [Alpaca Chat](https://github.com/cascip/ChatAlpaca)
+   * [Alpaca Chain of Thought](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT)
+   * [Guanaco Dataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset)
+   * [Databricks Dolly](https://github.com/databrickslabs/dolly/tree/master/data)
+   * [Open Assistant Dataset](https://huggingface.co/datasets/OpenAssistant/oasst1)
+   * [GPT4ALL from Nomic AI](https://github.com/nomic-ai/gpt4all)
+   * [Shared GPT](https://huggingface.co/datasets/RyokoAI/ShareGPT52K)
+   * [Google FLAN](https://github.com/google-research/FLAN/tree/main/flan/v2)
 - Infererence
 - Deployment
 
