@@ -110,7 +110,7 @@ for some of those notable models.
 - [WizardLM](https://github.com/nlpxucan/WizardLM): This is from Microsoft Reseach. It is based on 
   Evol-instruct, a tree-based instructions.
 
-- [Wizard Dataset + Vicuna Finetuning](https://github.com/melodysdreamj/WizardVicunaLM): a combo of Wizard and Vicuna.
+- [WizardVicuna](https://github.com/melodysdreamj/WizardVicunaLM): a combo of Wizard and Vicuna.
 
 - [Open Assistant](https://github.com/LAION-AI/Open-Assistant): dataset, RLHF fine tuning, etc.
 
@@ -127,7 +127,7 @@ for some of those notable models.
 - [BigCode Project/HuggingFace](https://github.com/bigcode-project)
 - [Replit](https://github.com/replit/ReplitLM)
 
-## Datasets (Finetuning)
+## Datasets
 
 Alpaca and variants: 
 * [Original Alpaca Dataset](https://github.com/tatsu-lab/stanford_alpaca)
