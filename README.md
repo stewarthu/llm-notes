@@ -95,7 +95,11 @@ library and building blocks for neural networks.
 - Common datasets for pre-training
 - Fine-tuning
 - Common datasets for fine-tuning
+
     * [Original Alpaca Dataset](https://github.com/tatsu-lab/stanford_alpaca)
+    * [AlpacaDataCleaned](https://github.com/gururise/AlpacaDataCleaned)
+    * [Alpaca Chat](https://github.com/cascip/ChatAlpaca)
+    * [Alpaca Chain of Thought](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT)
     * [phi-1, Textbooks Are All You Need](https://huggingface.co/datasets/teleprint-me/phi-1)
     * [WebGLM-qa, Grounded QA](https://huggingface.co/datasets/THUDM/webglm-qa)
     * [dolphin, Orca replicate](https://huggingface.co/datasets/ehartford/dolphin)
@@ -110,21 +114,14 @@ library and building blocks for neural networks.
     * [WizardLM](https://huggingface.co/datasets/victor123/evol_instruct_70k) <br/> [V2](https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k)
     * [ShareGPT52K](https://huggingface.co/datasets/RyokoAI/ShareGPT52K)
     * [GPT-4all Dataset](https://huggingface.co/datasets/nomic-ai/gpt4all-j-prompt-generations)
+    * [GPT4ALL from Nomic AI](https://github.com/nomic-ai/gpt4all)
     * [databricks-dolly-15k](https://huggingface.co/datasets/databricks/databricks-dolly-15k)
-    * [AlpacaDataCleaned](https://github.com/gururise/AlpacaDataCleaned)
     * [GPT-4-LLM Dataset](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)
-    * [Alpaca data](https://github.com/tatsu-lab/stanford_alpaca#data-release)
     * [ChatAlpaca data](https://github.com/cascip/ChatAlpaca)
     * [GuanacoDataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset#guanacodataset)
-    * [Original Alpaca Dataset](https://github.com/tatsu-lab/stanford_alpaca)
     * [Clenaed up version of Alpaca](https://github.com/gururise/AlpacaDataCleaned)
-    * [Alpaca Chat](https://github.com/cascip/ChatAlpaca)
-    * [Alpaca Chain of Thought](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT)
     * [Guanaco Dataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset)
-    * [Databricks Dolly](https://github.com/databrickslabs/dolly/tree/master/data)
     * [Open Assistant Dataset](https://huggingface.co/datasets/OpenAssistant/oasst1)
-    * [GPT4ALL from Nomic AI](https://github.com/nomic-ai/gpt4all)
-    * [Shared GPT](https://huggingface.co/datasets/RyokoAI/ShareGPT52K)
     * [Google FLAN](https://github.com/google-research/FLAN/tree/main/flan/v2)
 - Infererence
 - Deployment
