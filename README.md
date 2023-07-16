@@ -143,9 +143,8 @@ Wizard: DFS and BFS evolution of instructions
 * [WizrdLM V2](https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k)
 
 Open Assistant/Guanaco
-* [GuanacoDataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset#guanacodataset)
-* [Guanaco Dataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset)
 * [Open Assistant Dataset](https://huggingface.co/datasets/OpenAssistant/oasst1)
+* [Guanaco Dataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset)
 
 Orca: Why not give system prompts ?
 * [dolphin, Orca replicate](https://huggingface.co/datasets/ehartford/dolphin)
