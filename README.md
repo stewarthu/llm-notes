@@ -133,7 +133,7 @@ Alpaca and variants:
 * [Original Alpaca Dataset](https://github.com/tatsu-lab/stanford_alpaca)
 * [AlpacaDataCleaned](https://github.com/gururise/AlpacaDataCleaned)
 * [Alpaca Chat](https://github.com/cascip/ChatAlpaca)
-* [Alpaca Chain of Thought](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT)
+* [Alpaca Chain of Thought: A colleciton of datasets](https://github.com/PhoebusSi/alpaca-CoT)
 
 Vicuna: Assistant clone of OAI ChatGPT(llmsys.org/fastchat/vllm/vicuna)
 * [Vicuna_unfiltered](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered)
