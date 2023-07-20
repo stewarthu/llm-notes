@@ -60,22 +60,20 @@ These are the important milestones leading up to the current state of LLM.
 
 - The race to catch up with ChartGPT in the open source community
    * LLaMA: [LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)
+   * Llama 2: [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
 
 ## Prerequisites
 
 The field is moving so fast you absolutely need a hacker's mentality
 
-- Python/Numpy/Pandas: basic skills needed to code up something quickly. Fortunately with tools like copilot/ChatGPT/Replit, it's quite easy to get up to speed quickly in this department, especially if you
-are a programmer to begin with. For instance I came from a C++/R/Haskell background, and made a switch from R to Python
-quite smoothly.
+- Python/Numpy/Pandas: basic skills needed to code up something quickly. Fortunately with tools like copilot/ChatGPT/Replit, it's quite easy to get up to speed quickly in this department, especially if you are a programmer to begin with. For instance I came from a C++/R/Haskell background, and made a switch from R to Python quite smoothly.
 
-- Torch: Most transformer models are in torch. Invest some time to get you comfortable with both the tensor
-library and building blocks for neural networks.
+- PyTorch: Most transformer models are in torch. Invest some time to get you comfortable with both the tensor
+library and building blocks for neural networks. Read a lot of library code to get a sound foundation.
 
 - Git and github: You will clone a tons of repos to experiment, so invest some time in building your own commands to quickly get things done.
 
-- Huggingface ecosystem: this is a must now. Not just the `transformers` library itself, but also `peft`, 
-`accelerate`, etc.
+- Huggingface: this is a must now. Not just the `transformers` library itself, but also `peft`, `accelerate`, etc. You will spend tons of time with HF.
 
 - Linux, bash, and command line tools: Get a mac and get comfortable with command lines tools. Trust me it is worth your time.
 
@@ -83,22 +81,24 @@ library and building blocks for neural networks.
   but you will have to use GPUs for training models. You can build you own box
   with RTX 3090 (or 4090 if you have a few extra bucks), or rent online from one of those small guys:
   [vast.ai](https://cloud.vast.ai/), [runpod](https://www.runpod.io/gpu-instance/pricing), or Azure/AWS if
-  you are not paying the bills out of your own pocket.
+  you are not paying the bills out of your own pocket. Stick with A100s if you have budget - everything just works with A100s.
 
 ## Closed Foundation Models
 
-- OpenAI
-- Google
-- Anthropic
+- OpenAI: Build stuff with OpenAI to get your feet wet, read their cookbooks, they are really good.
+- Google: Have not really tried Bard model....
+- Anthropic: On my list, never really played with Claude/Claude2.
 
 ## Open Foundation Models
 
 ### LLaMA and finetuned variants
 
-FB's release of LLaMA set off a wave of fine tuned variants of LlaMA 7/13/30/65B models, with some
+FB's release of LLaMA set off a wave of fine tuned variants of LLaMA 7/13/30/65B models, with some
 fun playing with names of Llama family. See 
 [Huggingface Leaderboard for Open LLMs](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 for some of those notable models.
+
+Now with release of Llama 2, the real competition and fun starts !
 
 - [Alpaca](https://github.com/tatsu-lab/stanford_alpaca): This is the first model coming out of Standford.
   It was trained on the instructions generated from ChatGPT.
@@ -117,7 +117,7 @@ for some of those notable models.
 - [QLora](https://github.com/artidoro/qlora): This is a big for guys with consumer-grade GPUs like RTX series,
   you can fine tune a sizeable model with a single GPU. It was trained with Open Assistant dataset.
 
-### LLaMA alternatives
+### LLaMA alternatives (Updated on 7/20, now they are less attractive with the release of Llama 2 .... )
 
 - [Falcon](https://falconllm.tii.ae/)
 - [OpenLLaMA](https://github.com/openlm-research/open_llama)
@@ -198,8 +198,14 @@ Others:
   Probably not as mature as Langchain and LlamaIndex, but worthing checking out.
 - Text generation web gui: Nice playground for experimenting with various LLMs. 
 - LocalAI: a drop-in replacement for OpenAI.
+- Axolotl: Nice rep for finetuning
+- FastChat: Train/Eval/Deployment pipeline.
 
 ## Stay Current 
+
+1. Twitter. Follow guys with real signals. I will post my twitter list of AI later.
+2. If you have extra time, look at Reddit board like [LocalLlama](https://www.reddit.com/r/LocalLLaMA/)
+3. If you really have time, go to discord servers of things you are into.
 
 From Kaparthy: 
 
