@@ -66,11 +66,11 @@ Surprise.
 - Maximal update parameterization (muP): Allows you to "guess" the best hyper-parameters before starting to train. [5]
 - BTLM-8K-Base: https://huggingface.co/cerebras/btlm-3b-8k-base (from @CerebrasSystems)
 
-[1] https://huggingface.co/datasets/cerebras/SlimPajama-627B
-[2] https://arxiv.org/pdf/2002.05202.pdf
-[3] https://arxiv.org/abs/2108.12409
-[4] https://cerebras.net/blog/variable-sequence-length-training-for-long-context-large-language-models/
-[5] https://arxiv.org/pdf/2203.03466.pdf (remember that on GPT-4's paper, the loss was "predicted" before the training started?)
+- [1] https://huggingface.co/datasets/cerebras/SlimPajama-627B
+- [2] https://arxiv.org/pdf/2002.05202.pdf
+- [3] https://arxiv.org/abs/2108.12409
+- [4] https://cerebras.net/blog/variable-sequence-length-training-for-long-context-large-language-models/
+- [5] https://arxiv.org/pdf/2203.03466.pdf (remember that on GPT-4's paper, the loss was "predicted" before the training started?)
 
 ## Open model defeats ChatGPT in MMLU
 
