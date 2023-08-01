@@ -194,6 +194,17 @@ Others:
     is moving lightning fast, a lot prompts might not be necessary now, especially with strong models like GPT4.
 
 - LLamaIndex: It has some overlapping with LangChain - it's a data framework. Same as LC, awesome tool to get you started quickly.
+
+    * A document is split into chunks, or nodes.
+    * Chunks are wrapped into indicies - that's the building blocks.
+    * Index + retrieval mode => retrievers
+    * retrievers + synthesizing methods + post processing => query engines
+    * query engines + memory => chat engines
+    * query engines + json/pydantic descriptions => tools
+    * tools + LLM => agents
+
+    I like LlamaIndex codebase better - cleaner, better documented.
+
 - DSP: Coming out of Standford NLP research group. A nice programming model for working with LLMs: demostrate, search and predict.
   Probably not as mature as Langchain and LlamaIndex, but worthing checking out.
 - Text generation web gui: Nice playground for experimenting with various LLMs. 
