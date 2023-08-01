@@ -1,4 +1,4 @@
-# State of open source models arena
+# State of Open Source Models
 
 Source: https://twitter.com/Yampeleg/status/1685539560975933441
 
