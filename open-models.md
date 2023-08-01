@@ -1,9 +1,6 @@
+# State of open source models arena
 
-[The open source models arena](https://twitter.com/Yampeleg/status/1685539560975933441)
-
-I try not to post too much about open models until we reach a point where there will no longer be any debate about if they are at the level of closed models.
-
-So let's make it brief. 
+Source: https://twitter.com/Yampeleg/status/1685539560975933441
 
 ## LLaMA 2
 
