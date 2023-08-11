@@ -14,6 +14,7 @@
 
 ## Besides quantization
 
+- MLC/TVM: this looks really promising !
 - layer fusion
 - batch reordering
 - attention hijacking: xformers, torch sdp attention
