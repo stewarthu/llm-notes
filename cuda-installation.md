@@ -24,7 +24,7 @@ Chech out the following link for Azure:
 https://learn.microsoft.com/en-us/azure/virtual-machines/linux/n-series-driver-setup
 
 
-## Install cuda with atp
+## Install cuda with apt
 
 You can follow Nvidia docs:
 
