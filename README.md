@@ -220,7 +220,7 @@ Others:
 
 From Kaparthy: 
 
-1. [Weekly Oapers](https://papers.labml.ai/papers/weekly)
+1. [Weekly Papers](https://papers.labml.ai/papers/weekly)
 2. [Papers with Code](https://paperswithcode.com)
 3. [Trending Github Repos](https://github.com/trending)
 
